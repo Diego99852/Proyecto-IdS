@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CotaySaul/SetSelectorScene.unity
+- path: Assets/Scenes/CotaySaul/MainMenuScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
