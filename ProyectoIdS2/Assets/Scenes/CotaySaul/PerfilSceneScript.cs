@@ -19,8 +19,6 @@ public class PerfilSceneScript : MonoBehaviour
     [SerializeField] private string Pass;
 
     private string inmput;
-    private string dbUri = "URI=file:legodb.db"; // 4
-
 
     // Start is called before the first frame update
     public void CreateProfile()
@@ -54,36 +52,30 @@ public class PerfilSceneScript : MonoBehaviour
 
     public void joker()
     {
-        using (var dbConnection = new SqliteConnection(dbUri))
-        {
-            dbConnection.Open();
-            using (var command = dbConnection.CreateCommand())
-            {
-                command.CommandText = "SELECT * FROM Usuario;";
-                using (IDataReader reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        Debug.Log("Nombre: " + reader["Nombre"] + "Pass: " + reader["Pass"]);
+        IDbConnection dbConnection = OpenDatabase(); 
+        IDbCommand dbCommandReadValues = dbConnection.CreateCommand(); 
+        dbCommandReadValues.CommandText = "SELECT * FROM Usuario"; 
+        IDataReader dataReader = dbCommandReadValues.ExecuteReader(); 
 
-                    }
-                    reader.Close();
-                }
+        while (dataReader.Read())
+        {
+            
+            if (Nombre == dataReader.GetString(1) && Pass == dataReader.GetString(2))
+            {
+                Debug.Log("Si tas");
             }
-            dbConnection.Close();
         }
+        dbConnection.Close(); // 20
     }
 
     public void ReadStringInputNombre(string input)
     {
         Nombre = input;
-        Debug.Log(input);
     }
 
     public void ReadStringInputPass(string input)
     {
         Pass = input;
-        Debug.Log(input);
     }
 
     private IDbConnection OpenDatabase() // 3
