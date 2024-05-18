@@ -10,6 +10,11 @@ public class MainMenuScript : MonoBehaviour
         SceneManager.LoadScene("SetSelectorScene");
     }
 
+    public void Perfil()
+    {
+        SceneManager.LoadScene("PerfilScene");
+    }
+
     public void QuitGame()
     {
         Application.Quit();

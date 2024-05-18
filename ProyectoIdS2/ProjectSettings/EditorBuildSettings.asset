@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CotaySaul/SetSelectorScene.unity
     guid: be37767306334d94d91114b4ab9de6d6
+  - enabled: 1
+    path: Assets/Scenes/CotaySaul/PerfilScene.unity
+    guid: dd66f914a0d588f4d99a0b6fa536321e
   m_configObjects: {}
