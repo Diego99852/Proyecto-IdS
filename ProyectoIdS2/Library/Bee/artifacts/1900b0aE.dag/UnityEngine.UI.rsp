@@ -121,7 +121,8 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/Scenes/CotaySaul/Plugins/Mono.Data.Sqlite.dll"
+-r:"Assets/Plugins/Mono.Data.Sqlite.dll"
+-r:"Assets/Plugins/System.Data.SQLite.dll"
 -r:"C:/Program Files/Unity 2021.3.16f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity 2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity 2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

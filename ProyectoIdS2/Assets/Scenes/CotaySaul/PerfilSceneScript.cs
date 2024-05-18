@@ -4,6 +4,9 @@ using UnityEngine;
 using Mono.Data.Sqlite;
 using System.Data;
 using System; // Asegúrate de agregar esta línea
+using System.IO; // Asegúrate de agregar esta línea
+using System.Data.SQLite; // Cambiado a System.Data.SQLite
+
 
 
 
@@ -20,16 +23,35 @@ public class PerfilSceneScript : MonoBehaviour
 
 
     // Start is called before the first frame update
-    public void CreateProfile() 
+    public void CreateProfile()
     {
         IDbConnection dbConnection = OpenDatabase();
-        IDbCommand dbCommandInsertValue = dbConnection.CreateCommand();
-        dbCommandInsertValue.CommandText = string.Format("INSERT INTO Usuario(Nombre,Pass) VALUES('{0}','{1}');", Nombre,Pass);
-        dbCommandInsertValue.ExecuteNonQuery();
+        if (dbConnection == null)
+        {
+            Debug.LogError("Failed to create profile: Database connection is not established.");
+            return;
+        }
 
-        dbConnection.Close(); // 12
+        try
+        {
+            using (IDbCommand dbCommandInsertValue = dbConnection.CreateCommand())
+            {
+                dbCommandInsertValue.CommandText = string.Format("INSERT INTO Usuario(Nombre,Pass) VALUES('{0}','{1}');", Nombre, Pass);
+                dbCommandInsertValue.ExecuteNonQuery();
+                Debug.Log("Profile created successfully.");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Failed to create profile: " + e.Message);
+        }
+        finally
+        {
+            dbConnection.Close();
+            Debug.Log("Database connection closed.");
+        }
     }
-    
+
     public void joker()
     {
         using (var dbConnection = new SqliteConnection(dbUri))
@@ -68,9 +90,10 @@ public class PerfilSceneScript : MonoBehaviour
     {
         try
         {
-            string dbUri = "URI=file:legodb.db"; // 4
-            IDbConnection dbConnection = new SqliteConnection(dbUri); // 5
-            dbConnection.Open(); // 6
+            string dbPath = Path.Combine(Application.dataPath, "Scenes", "CotaySaul", "DB", "legodb.db");
+            string dbUri = "URI=file:" + dbPath;
+            IDbConnection dbConnection = new SqliteConnection(dbUri);
+            dbConnection.Open();
             Debug.Log("Database connection opened successfully.");
             return dbConnection;
         }
