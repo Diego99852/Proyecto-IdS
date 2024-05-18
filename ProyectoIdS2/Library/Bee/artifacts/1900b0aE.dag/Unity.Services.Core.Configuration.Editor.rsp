@@ -343,8 +343,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Scenes/CotaySaul/Plugins/Mono.Data.Sqlite.dll"
--analyzer:"Assets/Scenes/CotaySaul/Plugins/System.Data.SQLite.dll"
 "Library/PackageCache/com.unity.services.core@1.6.0/Editor/Core/Configuration/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.services.core@1.6.0/Editor/Core/Configuration/ConfigurationBuilder.cs"
 "Library/PackageCache/com.unity.services.core@1.6.0/Editor/Core/Configuration/IConfigurationProvider.cs"

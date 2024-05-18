@@ -351,8 +351,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Scenes/CotaySaul/Plugins/Mono.Data.Sqlite.dll"
--analyzer:"Assets/Scenes/CotaySaul/Plugins/System.Data.SQLite.dll"
 "Assets/Scenes/CotaySaul/MainMenuScript.cs"
 "Assets/Scenes/CotaySaul/PerfilSceneScript.cs"
 "Assets/Scenes/CotaySaul/SetSelectorScript.cs"
