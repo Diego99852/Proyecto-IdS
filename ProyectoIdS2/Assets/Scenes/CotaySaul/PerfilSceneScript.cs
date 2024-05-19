@@ -6,6 +6,7 @@ using System.Data;
 using System; // Asegúrate de agregar esta línea
 using System.IO; // Asegúrate de agregar esta línea
 using System.Data.SQLite; // Cambiado a System.Data.SQLite
+using UnityEngine.SceneManagement;
 
 
 
@@ -46,6 +47,9 @@ public class PerfilSceneScript : MonoBehaviour
         finally
         {
             dbConnection.Close();
+            DataHolder.Nombre = Nombre;
+            DataHolder.IdUsuario = IdUsuario;
+            SceneManager.LoadScene("MainMenuScene");
             Debug.Log("Database connection closed.");
         }
     }
@@ -62,7 +66,9 @@ public class PerfilSceneScript : MonoBehaviour
             
             if (Nombre == dataReader.GetString(1) && Pass == dataReader.GetString(2))
             {
-                Debug.Log("Si tas");
+                DataHolder.Nombre = Nombre;
+                DataHolder.IdUsuario = IdUsuario;
+                SceneManager.LoadScene("MainMenuScene");
             }
         }
         dbConnection.Close(); // 20
