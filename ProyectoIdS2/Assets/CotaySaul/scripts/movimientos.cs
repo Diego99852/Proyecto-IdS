@@ -10,6 +10,7 @@ public class movimientos : MonoBehaviour
 {
     public Vector3[] destinos;
     public Quaternion[] rotaciones;
+    public Vector3[] destinosCaja;
     public float duracion;
     public float jumpPower = 2.0f;
     public int numJumps = 1;
@@ -23,7 +24,7 @@ public class movimientos : MonoBehaviour
     void Start()
     {
         BotonAdelante.onClick.AddListener(Move);
-        BotonAtras.onClick.AddListener(Move);
+        BotonAtras.onClick.AddListener(Return);
     }
 
     public void Move()
@@ -31,6 +32,14 @@ public class movimientos : MonoBehaviour
         if (!isMoving && currentLegoIndex < legos.Length)
         {
             StartCoroutine(MoveLegoOneByOne());
+        }
+    }
+
+    public void Return()
+    {
+        if (!isMoving && currentLegoIndex > 0)
+        {
+            StartCoroutine(ReturnLegoOneByOne());
         }
     }
 
@@ -52,10 +61,27 @@ public class movimientos : MonoBehaviour
         BotonAtras.interactable = true;
     }
 
+    private IEnumerator ReturnLegoOneByOne()
+    {
+        isMoving = true;
+        BotonAdelante.interactable = false;
+        BotonAtras.interactable = false;
+
+        currentLegoIndex--; 
+
+        legos[currentLegoIndex].transform.DOJump(destinosCaja[currentLegoIndex], jumpPower, numJumps, duracion);
+        legos[currentLegoIndex].transform.DORotateQuaternion(rotaciones[currentLegoIndex], duracion);
+
+        yield return new WaitForSeconds(duracion);
+
+        isMoving = false;
+        BotonAdelante.interactable = true;
+        BotonAtras.interactable = true;
+    }
+
     public void GoBackToMenu()
     {
         SceneManager.LoadScene("SetSelectorScene");
     }
 }
-
 

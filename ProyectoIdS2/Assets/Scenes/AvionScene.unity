@@ -1324,7 +1324,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1918822588}
         m_TargetAssemblyTypeName: movimientos, Assembly-CSharp
-        m_MethodName: Move
+        m_MethodName: Return
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1824,7 +1824,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100472719}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00529, y: 0.00144, z: 0}
+  m_LocalPosition: {x: 0.00529, y: 0.00144, z: 0.0003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2952,7 +2952,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823217933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00529, y: -0.00127, z: 0}
+  m_LocalPosition: {x: 0.00529, y: -0.00127, z: 0.0004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3169,6 +3169,39 @@ MonoBehaviour:
   - {x: 0.49999997, y: -0.49999997, z: -0.49999997, w: -0.49999997}
   - {x: -0.49999997, y: -0.49999997, z: -0.49999997, w: 0.49999997}
   - {x: 0.70710677, y: 0, z: 0, w: -0.70710677}
+  destinosCaja:
+  - {x: 0, y: 0, z: 4.5}
+  - {x: 0, y: 0.2, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.4, z: 4.5}
+  - {x: 0, y: 0, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
+  - {x: 0, y: 0.6, z: 4.5}
   duracion: 0.5
   jumpPower: 2
   numJumps: 1
@@ -4352,8 +4385,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7972218290332551877}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00529, y: -0.00127, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0043249973, y: -0.0018749991, z: -0.0012499994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
