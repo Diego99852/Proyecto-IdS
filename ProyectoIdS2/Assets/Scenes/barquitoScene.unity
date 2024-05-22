@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 41976634}
   - component: {fileID: 41976633}
   - component: {fileID: 41976632}
-  - component: {fileID: 41976631}
   m_Layer: 0
   m_Name: Circulo 11
   m_TagString: Untagged
@@ -142,22 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &41976631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41976630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09c18429c5607ac448d2ef275432a198, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinos: []
-  rotaciones: []
-  duracion: 1
-  legos: []
 --- !u!23 &41976632
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2487,7 +2470,6 @@ GameObject:
   - component: {fileID: 1588283788}
   - component: {fileID: 1588283787}
   - component: {fileID: 1588283786}
-  - component: {fileID: 1588283785}
   m_Layer: 0
   m_Name: Circulo 16
   m_TagString: Untagged
@@ -2495,22 +2477,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1588283785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588283784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09c18429c5607ac448d2ef275432a198, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinos: []
-  rotaciones: []
-  duracion: 1
-  legos: []
 --- !u!23 &1588283786
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2888,7 +2854,6 @@ GameObject:
   - component: {fileID: 1888324500}
   - component: {fileID: 1888324499}
   - component: {fileID: 1888324498}
-  - component: {fileID: 1888324497}
   m_Layer: 0
   m_Name: Circulo 15
   m_TagString: Untagged
@@ -2896,22 +2861,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1888324497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888324496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09c18429c5607ac448d2ef275432a198, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinos: []
-  rotaciones: []
-  duracion: 1
-  legos: []
 --- !u!23 &1888324498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3123,6 +3072,8 @@ MonoBehaviour:
   - {x: 0.49999997, y: -0.49999997, z: -0.49999997, w: -0.49999997}
   - {x: -0.7070798, y: -0.006170664, z: -0.006170664, w: 0.7070798}
   duracion: 0.5
+  jumpPower: 2
+  numJumps: 1
   legos:
   - {fileID: 2391574644325191694}
   - {fileID: 5361630396094353407}
@@ -3162,6 +3113,7 @@ MonoBehaviour:
   - {fileID: 275377917964629067}
   - {fileID: 548394285}
   - {fileID: 962390921}
+  moveButton: {fileID: 469646765}
 --- !u!4 &1918822589
 Transform:
   m_ObjectHideFlags: 0
