@@ -4,6 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 using TMPro;
 using UnityEngine.UI; // Necesario para manejar el botón
+using UnityEngine.SceneManagement;
 
 public class movimientos : MonoBehaviour
 {
@@ -13,15 +14,16 @@ public class movimientos : MonoBehaviour
     public float jumpPower = 2.0f;
     public int numJumps = 1;
     public GameObject[] legos;
-    public Button moveButton; // Referencia al botón
+    public Button BotonAdelante;
+    public Button BotonAtras;
 
     private int currentLegoIndex = 0;
-    private bool isMoving = false; // Bandera para controlar el movimiento
+    private bool isMoving = false;
 
     void Start()
     {
-        // Asignar el método Move al botón
-        moveButton.onClick.AddListener(Move);
+        BotonAdelante.onClick.AddListener(Move);
+        BotonAtras.onClick.AddListener(Move);
     }
 
     public void Move()
@@ -34,22 +36,25 @@ public class movimientos : MonoBehaviour
 
     private IEnumerator MoveLegoOneByOne()
     {
-        isMoving = true; // Inicia el movimiento
-        moveButton.interactable = false; // Desactiva el botón para evitar más movimientos
+        isMoving = true;
+        BotonAdelante.interactable = false;
+        BotonAtras.interactable = false;
 
-        // Mueve el objeto actual en un arco y rota
         legos[currentLegoIndex].transform.DOJump(destinos[currentLegoIndex], jumpPower, numJumps, duracion);
         legos[currentLegoIndex].transform.DORotateQuaternion(rotaciones[currentLegoIndex], duracion);
 
-        // Espera hasta que el movimiento y la rotación terminen
         yield return new WaitForSeconds(duracion);
 
-        // Incrementa el índice para mover el siguiente objeto en la próxima pulsación
         currentLegoIndex++;
-        Debug.Log("Pieza actual: " + currentLegoIndex);
 
-        isMoving = false; // Termina el movimiento
-        moveButton.interactable = true; // Reactiva el botón para permitir más movimientos
+        isMoving = false;
+        BotonAdelante.interactable = true;
+        BotonAtras.interactable = true;
+    }
+
+    public void GoBackToMenu()
+    {
+        SceneManager.LoadScene("SetSelectorScene");
     }
 }
 
