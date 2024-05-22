@@ -88,7 +88,7 @@ public class PerfilSceneScript : MonoBehaviour
     {
         try
         {
-            string dbPath = Path.Combine(Application.dataPath, "Scenes", "CotaySaul", "DB", "legodb.db");
+            string dbPath = Path.Combine(Application.dataPath, "CotaySaul", "DB", "legodb.db");
             string dbUri = "URI=file:" + dbPath;
             IDbConnection dbConnection = new SqliteConnection(dbUri);
             dbConnection.Open();

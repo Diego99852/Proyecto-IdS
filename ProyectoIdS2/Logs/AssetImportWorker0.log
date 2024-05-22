@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16306 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 16309 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+Z:\Weas Informaticas\Unity\Unity 2021.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Proyecto-IdS/Proyecto-IdS/ProyectoIdS2
+D:/Lego/Proyecto-IdS/ProyectoIdS2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-28463
-Successfully changed project path to: D:/Proyecto-IdS/Proyecto-IdS/ProyectoIdS2
-D:/Proyecto-IdS/Proyecto-IdS/ProyectoIdS2
+51698
+Successfully changed project path to: D:/Lego/Proyecto-IdS/ProyectoIdS2
+D:/Lego/Proyecto-IdS/ProyectoIdS2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,455 +47,183 @@ D:/Proyecto-IdS/Proyecto-IdS/ProyectoIdS2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19876] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 439354125 [EditorId] 439354125 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0IVBD2K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19196] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 2529945694 [EditorId] 2529945694 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U53TDR7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19876] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 439354125 [EditorId] 439354125 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0IVBD2K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19196] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 2529945694 [EditorId] 2529945694 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U53TDR7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 80.19 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 1.14 ms.
+Refreshing native plugins compatible for Editor in 124.28 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Proyecto-IdS/Proyecto-IdS/ProyectoIdS2/Assets
+[Subsystems] Discovering subsystems at path Z:/Weas Informaticas/Unity/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Lego/Proyecto-IdS/ProyectoIdS2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f42)
     Vendor:   NVIDIA
-    VRAM:     8003 MB
-    Driver:   31.0.15.4629
+    VRAM:     8006 MB
+    Driver:   31.0.15.5222
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Mono path[0] = 'Z:/Weas Informaticas/Unity/Unity 2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/Weas Informaticas/Unity/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/Weas Informaticas/Unity/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009244 seconds.
+Register platform support module: Z:/Weas Informaticas/Unity/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005746 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 110.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
+- Completed reload, in  1.210 seconds
 Domain Reload Profiling:
-	ReloadAssembly (636ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (1211ms)
+		BeginReloadAssembly (229ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (434ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (231ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (254ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (111ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007572 seconds.
+Registered in 0.017465 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D5C5B73050 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C45B5040 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3ECE000 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C45EB850 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3ECE000 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3B38020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3B38020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C4606260 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C63B2C20 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C63B2C20 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C0BC7E20 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6812840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C0BC7E20 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C63F71E0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C59A2010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C59EFDA0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C461B670 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C59EFDA0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6812840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6077230 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C461B670 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6DEF020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C461B670 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C0BEA040 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C40CFC70 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5A217C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5A2E900 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5C21840 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
+- Completed reload, in  1.551 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1215ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (366ms)
+			SetupTypeCache (470ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (475ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (56.7 KB). Loaded Objects now: 3854.
-Memory consumption went from 118.9 MB to 118.9 MB.
-Total: 4.605800 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.196900 ms MarkObjects: 3.971200 ms  DeleteObjects: 0.105800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 192878.859228 seconds.
-  path: Assets/Scenes/AvionetaScene.unity
-  artifactKey: Guid(3f8555871b980f4458a75d8b1acced21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AvionetaScene.unity using Guid(3f8555871b980f4458a75d8b1acced21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8808ea2a5bf15a797379b3a1decfc395') in 0.018486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.416445 seconds.
-  path: Assets/Scenes/AvionScene.unity
-  artifactKey: Guid(09bf96fd2f1f1d640af7d63e880c0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AvionScene.unity using Guid(09bf96fd2f1f1d640af7d63e880c0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2a0ef40c268aba372bb7ff9cfd2cc6') in 0.010755 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006180 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D5C66BE020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6364010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C66C2AC0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C673F010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9652830 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6364010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9652830 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C95B9010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9AA8020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9EFC020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C06E9630 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C97C7C30 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C4718EF0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C4718EF0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CAA28290 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C06E9630 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C46DD050 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CAA902E0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C7B7C230 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C4718EF0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9317020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C4718EF0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C46DD050 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C4718EF0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C4718EF0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6379620 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6379620 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6379620 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C46C6430 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C46C6430 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C637C030 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C93AD010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CA4C4010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C46C6430 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3F64E10 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3F64E10 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1114ms)
-		BeginReloadAssembly (153ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (868ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (352ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3857.
-Memory consumption went from 117.4 MB to 117.4 MB.
-Total: 3.492600 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.081500 ms MarkObjects: 3.040700 ms  DeleteObjects: 0.057400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 108.492413 seconds.
-  path: Assets/Scenes/AvionScene.unity
-  artifactKey: Guid(09bf96fd2f1f1d640af7d63e880c0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AvionScene.unity using Guid(09bf96fd2f1f1d640af7d63e880c0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab649ea6a564167ae57686fc288ac6d') in 0.010806 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008133 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D5C3AF4C30 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3DA72A0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3AF4C30 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB640E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CA9ED950 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6364010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CA9ED950 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB601220 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5EBEEA0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB4DF5E0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C06E9630 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9FF9830 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB287BE0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C06E9630 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB38B6E0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C991A020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CBC14020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C68CC020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB2095C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9FF9830 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C3B6EBD0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CAB4D360 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C93AD010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9F82030 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C62012A0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C44D1E50 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (56.8 KB). Loaded Objects now: 3891.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 4.725300 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.151700 ms MarkObjects: 4.053400 ms  DeleteObjects: 0.116100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 367086.594375 seconds.
+  path: Assets/CotaySaul/pareja-de-flechas-bosquejadas-apuntando-a-izquierda-y-derecha.png
+  artifactKey: Guid(8e9ad9a6ccc65894ab2692ced239acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/pareja-de-flechas-bosquejadas-apuntando-a-izquierda-y-derecha.png using Guid(8e9ad9a6ccc65894ab2692ced239acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dc9a70cc82029b3a7e208d160700aa') in 0.398664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.538766 seconds.
+  path: Assets/CotaySaul/scripts
+  artifactKey: Guid(cfc29b6533f7dd9499eb0150b0d2fafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/scripts using Guid(cfc29b6533f7dd9499eb0150b0d2fafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e76ac9a36303f624fe14132762a108c') in 0.009340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.696041 seconds.
+  path: Assets/Scenes/SetSelectorScene.unity
+  artifactKey: Guid(be37767306334d94d91114b4ab9de6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SetSelectorScene.unity using Guid(be37767306334d94d91114b4ab9de6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40848134d0840ed36751820e9c7fc337') in 0.017222 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018807 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.423 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1424ms)
+		BeginReloadAssembly (221ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (822ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			SetupTypeCache (386ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (349ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (446ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.22 ms, found 4 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (24.9 KB). Loaded Objects now: 3860.
-Memory consumption went from 117.4 MB to 117.4 MB.
-Total: 4.335200 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.327400 ms MarkObjects: 3.570500 ms  DeleteObjects: 0.032600 ms)
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3903.
+Memory consumption went from 122.9 MB to 122.9 MB.
+Total: 4.715500 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.095100 ms MarkObjects: 4.248800 ms  DeleteObjects: 0.046300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -509,127 +237,111 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 209.323696 seconds.
-  path: Assets/Scenes/barquitoScene.unity
-  artifactKey: Guid(aa3a20bf21e6f9d4ca1ff28b6e37f40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/barquitoScene.unity using Guid(aa3a20bf21e6f9d4ca1ff28b6e37f40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc91a87474272c0b71550f636056957') in 0.019166 seconds 
+  Time since last request: 57.471449 seconds.
+  path: Assets/CotaySaul/DB/legodb.db
+  artifactKey: Guid(ab92cbf8bd7c85b49b2e00924b313244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/DB/legodb.db using Guid(ab92cbf8bd7c85b49b2e00924b313244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40a72dd25a65a6b0028131e5b047ae6') in 0.036664 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006720 seconds.
+Registered in 0.017343 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D5C3AF4C30 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C049ECC0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB50B5F0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CA988010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CA9ED950 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C40CFC70 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB50B5F0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C6341670 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C5D5B020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CBC14020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C74C5010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB57F6C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB50B5F0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB50B5F0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C67D5010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C74C5010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB2095C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CBF1D010 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CBB022A0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CBB022A0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9317020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CBB022A0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB2095C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CBB022A0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB57F6C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB50B5F0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB50B5F0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB57F6C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CAE72020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB50B5F0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB57F6C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C37DC020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5C9DDE030 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB57F6C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CAE72020 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D5CB57F6C0 doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Proyecto-IdS\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  1.441 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1175ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1442ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (901ms)
-			LoadAssemblies (127ms)
+		EndReloadAssembly (1093ms)
+			LoadAssemblies (174ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
+			SetupTypeCache (412ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (371ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3863.
-Memory consumption went from 117.3 MB to 117.3 MB.
-Total: 4.253000 ms (FindLiveObjects: 0.465600 ms CreateObjectMapping: 0.492000 ms MarkObjects: 3.263300 ms  DeleteObjects: 0.030900 ms)
+Refreshing native plugins compatible for Editor in 3.29 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3906.
+Memory consumption went from 122.9 MB to 122.9 MB.
+Total: 3.918600 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.094600 ms MarkObjects: 3.506700 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016381 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1430ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3909.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 4.231700 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.096200 ms MarkObjects: 3.788600 ms  DeleteObjects: 0.041000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -643,29 +355,703 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 240.151081 seconds.
-  path: Assets/piezas 3d/objetos 3d
-  artifactKey: Guid(68fdf930a7035624fb334f9a809336aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/piezas 3d/objetos 3d using Guid(68fdf930a7035624fb334f9a809336aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e45514389a3a2c239c040f65d3e9ad7') in 0.020036 seconds 
+  Time since last request: 170.893666 seconds.
+  path: Assets/CotaySaul/DB
+  artifactKey: Guid(9be3695287a422743b72cd490cb3360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/DB using Guid(9be3695287a422743b72cd490cb3360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1424fe1f136844942b4653aa4a201670') in 0.017108 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.088955 seconds.
-  path: Assets/piezas 3d/objetos 3d/box.FBX
-  artifactKey: Guid(63554a22fd9491843a4a1c92d16e3080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/piezas 3d/objetos 3d/box.FBX using Guid(63554a22fd9491843a4a1c92d16e3080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8481d68243fa9fcd46b9cbf70a7ba3f1') in 0.210762 seconds 
+  Time since last request: 29.793278 seconds.
+  path: Assets/CotaySaul/Plugins/sqlite3.def
+  artifactKey: Guid(e104cdba075551249aa9b6988283ba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/Plugins/sqlite3.def using Guid(e104cdba075551249aa9b6988283ba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feed18fad72f507ea44e57864b651fe') in 0.044487 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016830 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1380ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.9 KB). Loaded Objects now: 3912.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 5.233100 ms (FindLiveObjects: 0.398100 ms CreateObjectMapping: 0.153600 ms MarkObjects: 4.636200 ms  DeleteObjects: 0.044000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/piezas 3d/objetos 3d/Chair.FBX
-  artifactKey: Guid(1513d905670f90b43b50fb1d94093ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/piezas 3d/objetos 3d/Chair.FBX using Guid(1513d905670f90b43b50fb1d94093ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b650db7ce904fd36642e8e3db25fe52') in 0.089593 seconds 
+  Time since last request: 363.629127 seconds.
+  path: Assets/CotaySaul/Plugins
+  artifactKey: Guid(c5f9579115466eb48bf4a3848ee58f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/Plugins using Guid(c5f9579115466eb48bf4a3848ee58f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec4b5fa871d4162fd319eb17c070295') in 0.016310 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018153 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1306ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3915.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 3.914300 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.095800 ms MarkObjects: 3.487600 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016529 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.72 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3918.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 5.069900 ms (FindLiveObjects: 0.315900 ms CreateObjectMapping: 0.100100 ms MarkObjects: 4.614000 ms  DeleteObjects: 0.038500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1706ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1295ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.9 KB). Loaded Objects now: 3921.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 6.890800 ms (FindLiveObjects: 0.465400 ms CreateObjectMapping: 0.110500 ms MarkObjects: 6.263500 ms  DeleteObjects: 0.049300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/piezas 3d/objetos 3d/Door.fbx
-  artifactKey: Guid(b29fa8ce1a876ab409a633556420770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/piezas 3d/objetos 3d/Door.fbx using Guid(b29fa8ce1a876ab409a633556420770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0ff8084b98fbf0b1d4f95deb96087f') in 0.106341 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 432.766235 seconds.
+  path: Assets/CotaySaul/scripts/SetSelectorScript.cs
+  artifactKey: Guid(bffdf6c980394114086e7b0d1ae3cee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/scripts/SetSelectorScript.cs using Guid(bffdf6c980394114086e7b0d1ae3cee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede9f0575ce9528abacbeab46a7e76f0') in 0.029484 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019073 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1568ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1186ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3924.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 5.766600 ms (FindLiveObjects: 0.411400 ms CreateObjectMapping: 0.140800 ms MarkObjects: 5.140000 ms  DeleteObjects: 0.072700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79.902194 seconds.
+  path: Assets/CotaySaul/scripts/CambioDeEscena.cs
+  artifactKey: Guid(1f9db764eef614e40b5bdc97d3227633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CotaySaul/scripts/CambioDeEscena.cs using Guid(1f9db764eef614e40b5bdc97d3227633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f83d6d583377a9930678f065ce3fa1b') in 0.023258 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018460 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1524ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.95 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.9 KB). Loaded Objects now: 3927.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 4.108300 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.098900 ms MarkObjects: 3.659100 ms  DeleteObjects: 0.031100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016605 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1512ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1164ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.03 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3930.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 6.123700 ms (FindLiveObjects: 0.366000 ms CreateObjectMapping: 0.126700 ms MarkObjects: 5.587600 ms  DeleteObjects: 0.041600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022737 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1429ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1038ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3933.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 4.245200 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.808000 ms  DeleteObjects: 0.039100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021508 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1634ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1241ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.65 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3936.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 5.232200 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.133600 ms MarkObjects: 4.663000 ms  DeleteObjects: 0.049400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018266 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.466 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1467ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.04 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3939.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 5.931700 ms (FindLiveObjects: 0.404900 ms CreateObjectMapping: 0.106700 ms MarkObjects: 5.368700 ms  DeleteObjects: 0.049200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017382 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1569ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1194ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.9 KB). Loaded Objects now: 3942.
+Memory consumption went from 123.1 MB to 123.0 MB.
+Total: 4.577500 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.132900 ms MarkObjects: 4.034200 ms  DeleteObjects: 0.042500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020329 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lego\Proyecto-IdS\ProyectoIdS2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2206ms)
+		BeginReloadAssembly (685ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (230ms)
+		EndReloadAssembly (1359ms)
+			LoadAssemblies (405ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (571ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.21 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (24.8 KB). Loaded Objects now: 3945.
+Memory consumption went from 123.1 MB to 123.0 MB.
+Total: 7.563600 ms (FindLiveObjects: 0.450400 ms CreateObjectMapping: 0.119900 ms MarkObjects: 6.853700 ms  DeleteObjects: 0.137800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

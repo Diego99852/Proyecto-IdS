@@ -8,7 +8,7 @@ using System; // Asegúrate de agregar esta línea
 using System.IO; // Asegúrate de agregar esta línea
 using System.Data.SQLite; // Cambiado a System.Data.SQLite
 using UnityEngine.UI;
-
+using TMPro;
 
 public class SetSelectorScript : MonoBehaviour
 {
@@ -17,11 +17,14 @@ public class SetSelectorScript : MonoBehaviour
     public static int IdUsuario;
     public static int IdSet;
     public Button starButton;
+    public TMP_Text textMeshPro;
+    public List<TMP_Text> textMeshProList;
 
 
     void Start()
     {
         IdUsuario = DataHolder.IdUsuario;
+        getAllSets();
     }
 
     public void FuckGoBack()
@@ -62,18 +65,20 @@ public class SetSelectorScript : MonoBehaviour
         IDbCommand dbCommandReadValues = dbConnection.CreateCommand();
         dbCommandReadValues.CommandText = "SELECT * FROM Sets";
         IDataReader dataReader = dbCommandReadValues.ExecuteReader();
-
-        while (dataReader.Read())
+        int index = 0;
+        while (dataReader.Read() && index < textMeshProList.Count)
         {
-
-            
+            textMeshProList[index].text = dataReader.GetString(1) + " " + dataReader.GetString(2);
+            Debug.Log(dataReader.GetString(1) + " " + dataReader.GetString(2));
+            index++;
+            //textMeshPro.text = dataReader.GetString(1) + dataReader.GetString(2);
         }
         dbConnection.Close(); // 20
     }
 
     public void addToFavourites() //Ya tiene el IdUsuario que lo esta usando, solo falta que busques una manera de agarrar el IdSet y listo
-        //Pienso que se puede hacer mediante el click del botón grande, no de la estrella, puedes escribir el ID en el botón y despues buscarlo con el .text del string
-        //esta se manda llamar cada que se le pica al botón de la estrella y la variable de hasta arriba que se llama starButton esta asociado al botón grande (no a la estrella) para que puedas sacar el texto de esa variable
+                                  //Pienso que se puede hacer mediante el click del botón grande, no de la estrella, puedes escribir el ID en el botón y despues buscarlo con el .text del string
+                                  //esta se manda llamar cada que se le pica al botón de la estrella y la variable de hasta arriba que se llama starButton esta asociado al botón grande (no a la estrella) para que puedas sacar el texto de esa variable
     {
         IDbConnection dbConnection = OpenDatabase();
         if (dbConnection == null)
@@ -107,11 +112,12 @@ public class SetSelectorScript : MonoBehaviour
         Nombre = input;
     }
 
+
     private IDbConnection OpenDatabase() // 3
     {
         try
         {
-            string dbPath = Path.Combine(Application.dataPath, "Scenes", "CotaySaul", "DB", "legodb.db");
+            string dbPath = Path.Combine(Application.dataPath, "CotaySaul", "DB", "legodb.db");
             string dbUri = "URI=file:" + dbPath;
             IDbConnection dbConnection = new SqliteConnection(dbUri);
             dbConnection.Open();
@@ -124,5 +130,4 @@ public class SetSelectorScript : MonoBehaviour
             return null;
         }
     }
-
 }
