@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CamaraOribital: MonoBehaviour
+public class CamaraOribital : MonoBehaviour
 {
     public Transform target; 
     public float distance = 5.0f;
