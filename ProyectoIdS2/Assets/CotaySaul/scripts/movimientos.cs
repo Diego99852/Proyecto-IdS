@@ -17,6 +17,7 @@ public class movimientos : MonoBehaviour
     public GameObject[] legos;
     public Button BotonAdelante;
     public Button BotonAtras;
+    public GameObject pantallaOpciones;
 
     private int currentLegoIndex = 0;
     private bool isMoving = false;
@@ -34,7 +35,12 @@ public class movimientos : MonoBehaviour
             StartCoroutine(MoveLegoOneByOne());
         }
     }
+    public void FuckGoBack()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+        pantallaOpciones.SetActive(false);
 
+    }
     public void Return()
     {
         if (!isMoving && currentLegoIndex > 0)

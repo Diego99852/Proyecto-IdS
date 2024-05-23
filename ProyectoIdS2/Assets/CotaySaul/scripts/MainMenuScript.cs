@@ -9,7 +9,7 @@ public class MainMenuScript : MonoBehaviour
     public static string Nombre;
     public static int IdUsuario;
     public Text uiText;
-
+    public GameObject pantallaOpciones;
 
     void Start()
     {
@@ -28,7 +28,11 @@ public class MainMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("SetSelectorScene");
     }
-
+    public void Options()
+    {
+        SceneManager.LoadScene("Opciones");
+        pantallaOpciones.SetActive(true);
+    }
     public void Perfil()
     {
         SceneManager.LoadScene("PerfilScene");

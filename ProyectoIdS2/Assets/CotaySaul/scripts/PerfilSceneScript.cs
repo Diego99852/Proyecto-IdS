@@ -20,10 +20,13 @@ public class PerfilSceneScript : MonoBehaviour
     [SerializeField] private string Pass;
 
     private string inmput;
-
-    // Start is called before the first frame update
+    public void FuckGoBack()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+    }
     public void CreateProfile()
     {
+
         IDbConnection dbConnection = OpenDatabase();
         if (dbConnection == null)
         {
